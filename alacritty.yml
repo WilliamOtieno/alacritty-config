@@ -89,7 +89,7 @@ scrolling:
 # Font configuration
 font:
   # Normal (roman) font face
-  size: 8
+  size: 10.5
   normal:
     # Font family
     #
@@ -325,7 +325,7 @@ live_config_reload: true
 #   - (Linux/BSD) user login shell
 #   - (Windows) powershell
 shell:
-  program: /usr/bin/fish
+  program: /bin/zsh
   args:
     - --login
 
