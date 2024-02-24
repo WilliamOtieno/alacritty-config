@@ -1,0 +1,115 @@
+live_config_reload = true
+
+[colors]
+draw_bold_text_with_bright_colors = true
+
+# [colors.bright]
+# black = "0xa5876b"
+# blue = "0xF35743"
+# cyan = "0xFAD42E"
+# green = "0xA33A4E"
+# magenta = "0xF6A73B"
+# red = "0x63504E"
+# white = "0xedc29a"
+# yellow = "0xEB3247"
+#
+# [colors.cursor]
+# cursor = "0xedc29a"
+# text = "0x0a1124"
+#
+# [colors.normal]
+# black = "0x0a1124"
+# blue = "0xF35743"
+# cyan = "0xFAD42E"
+# green = "0xA33A4E"
+# magenta = "0xF6A73B"
+# red = "0x63504E"
+# white = "0xedc29a"
+# yellow = "0xEB3247"
+#
+# [colors.primary]
+# background = "0x0a1124"
+# foreground = "0xedc29a"
+#
+[cursor]
+style = "Beam"
+
+[env]
+TERM = "xterm-256color"
+
+[font]
+size = 11.0
+
+[font.bold]
+family = "FiraCode Nerd Font"
+
+[font.bold_italic]
+family = "FiraCode Nerd Font"
+
+[font.italic]
+family = "FiraCode Nerd Font"
+
+[font.normal]
+family = "FiraCode Nerd Font"
+
+[[keyboard.bindings]]
+action = "Paste"
+key = "V"
+mods = "Control|Shift"
+
+[[keyboard.bindings]]
+action = "Copy"
+key = "C"
+mods = "Control|Shift"
+
+[[keyboard.bindings]]
+action = "PasteSelection"
+key = "Insert"
+mods = "Shift"
+
+[[keyboard.bindings]]
+action = "ResetFontSize"
+key = "Key0"
+mods = "Control"
+
+[[keyboard.bindings]]
+action = "IncreaseFontSize"
+key = "Equals"
+mods = "Control"
+
+[[keyboard.bindings]]
+action = "IncreaseFontSize"
+key = "Plus"
+mods = "Control"
+
+[[keyboard.bindings]]
+action = "DecreaseFontSize"
+key = "Minus"
+mods = "Control"
+
+[[keyboard.bindings]]
+action = "DecreaseFontSize"
+key = "Minus"
+mods = "Control"
+
+[mouse]
+hide_when_typing = true
+
+[scrolling]
+history = 10000
+multiplier = 3
+
+[shell]
+args = ["--login"]
+program = "/bin/zsh"
+
+[window]
+decorations = "full"
+decorations_theme_variant = "dark"
+dynamic_padding = true
+opacity = 0.9
+dynamic_title = true
+
+[window.class]
+general = "Alacritty"
+instance = "Alacritty"
