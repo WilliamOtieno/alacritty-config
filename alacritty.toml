@@ -110,6 +110,3 @@ dynamic_padding = true
 opacity = 0.9
 dynamic_title = true
 
-[window.class]
-general = "Alacritty"
-instance = "Alacritty"
